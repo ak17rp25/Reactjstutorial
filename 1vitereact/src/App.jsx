@@ -1,9 +1,8 @@
 
+import Result from './Result';
 function App() {
   return (
-    <h1>
-      HEllo Brother
-    </h1>
+      <Result></Result>
   )
 }
 

@@ -4,9 +4,11 @@ function App() {
   const [counter, setcounter] = useState(0)
   const incrementMethod =(e)=>{
     e.preventDefault();
-    if(counter < 20){
       setcounter(counter+1)
-    }
+      setcounter(counter=>counter+1);
+      setcounter(counter=>counter+1)
+      setcounter(counter=>counter+1)
+      setcounter(counter=>counter+1)
     
   }
   const decrementMethod =(e)=>{
